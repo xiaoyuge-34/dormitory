@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>学生宿舍管理系统</title>
+    <link rel="stylesheet" href="../static/css/bootstrap.css">
+    <script src="../static/js/jquery-3.3.1.js"></script>
+    <script src="../static/js/bootstrap.js"></script>
+</head>
+<body>
+    <div>
+        <img src="../static/img/bar.jpg">
+    </div>
+
+<link rel="stylesheet" href="../static/css/login.css">
+
+
+<ul class="nav nav-tabs" style="background:orange">
+    <li class="tab_item" style="margin-left:100px;" ><a onmouseover="this.style.background='white';this.style.color='orange';" onmouseleave="if(this.parentNode.className == 'tab_item'){this.style.background='orange';this.style.color='white';}" href="javascript:;" onclick="active(0)">学生登录</a></li>
+    <li class="tab_item"><a onmouseover="this.style.background='white';this.style.color='orange';" onmouseleave="if(this.parentNode.className == 'tab_item'){this.style.background='orange';this.style.color='white';}" href="javascript:;" style="color:white" onclick="active(1)">宿舍管理员登录</a></li>
+	<li class="tab_item"><a onmouseover="this.style.background='white';this.style.color='orange';" onmouseleave="if(this.parentNode.className == 'tab_item'){this.style.background='orange';this.style.color='white';}" href="javascript:;" style="color:white" onclick="active(2)">系统管理员登录</a></li>
+</ul>
+
+<div class="login">
+	<h2> </h2>
+	<div class="login-top">
+		<h1 style="color:orange">用户登录</h1>
+		<form id="form" action="#" method="post" onsubmit="return check()">
+			<input type="text" id="user_id" value="" name="user_id" placeholder="学工号" onchange="id_check()"><p id="id_error" style="color:red;"></p>
+			<input type="password" id="password" value="" name="password" placeholder="登录密码" onchange="password_check()"><p id="password_error" style="color:red"></p>
+
+			<div class="forgot">
+				<input type="submit" style="background:orange" value="登录" onclick="check()">
+			</div>
+		</form>
+	</div>
+	<div class="login-bottom">
+	</div>
+</div>
+
+
+	<script src="../static/js/login.js"></script>
+</body>
+</html>

@@ -1,0 +1,269 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>学生宿舍管理系统</title>
+    <link rel="stylesheet" href="../static/css/bootstrap.css">
+    <script src="../static/js/jquery-3.3.1.js"></script>
+    <script src="../static/js/bootstrap.js"></script>
+
+</head>
+<body>
+<div>
+    <img src="../static/img/bar.jpg">
+</div>
+
+
+<ul class="nav nav-tabs" style="background:orange">
+    <li class="tab_item" style="margin-left:100px;"><a onmouseover="this.style.background='white';this.style.color='orange';"
+                                   onmouseleave="if(this.parentNode.className == 'tab_item'){this.style.background='orange';this.style.color='white';}"
+                                   href="index.html" style="color:white">首页</a></li>
+    <li class="tab_item active"><a style="background:white;color:orange; " onmouseover="this.style.background='white';this.style.color='orange';"
+                            onmouseleave="if(this.parentNode.className == 'tab_item'){this.style.background='orange';this.style.color='white';}"
+                            href="repair.html" style="color:white">网上报修</a></li>
+    <li class="tab_item"><a onmouseover="this.style.background='white';this.style.color='orange';"
+                            onmouseleave="if(this.parentNode.className == 'tab_item'){this.style.background='orange';this.style.color='white';}"
+                            href="cost.html" style="color:white">水电费查看</a></li>
+    <li class="tab_item"><a onmouseover="this.style.background='white';this.style.color='orange';"
+                            onmouseleave="if(this.parentNode.className == 'tab_item'){this.style.background='orange';this.style.color='white';}"
+                            href="modify_password.html" style="color:white">密码修改</a></li>
+    <div role="presentation" style="float:right;margin:10px 100px 10px 0"><a style="color:white"
+                                                                             href="../user/login.html">注销</a></div>
+    <div role="presentation" style="float:right;margin:10px 20px 10px 0"><a style="color:white" href="javascript:;">欢迎您</a>
+    </div>
+</ul>
+
+<div style="margin:auto;width:1000px;height:100%">
+    <div style="margin-top:30px">
+        <table class="table table-striped" style="table-layout:;margin:auto;margin-bottom:100px;">
+            <tbody><tr class="" style="background:orange;color:white;">
+                <th class="" colspan="8">我的历史报修
+
+                </th><th style="text-align:center;"><a href="add_repair.html" style="color:white;">开始报修</a></th>
+
+            </tr>
+            <tr class="" style="text-align:center">
+                <td class="active">寝室</td>
+                <td class="active">报修类型</td>
+                <td class="active">报修设备</td>
+                <td class="active">联系方式</td>
+                <td class="active">报修时间</td>
+                <td class="active" colspan="2">备注信息</td>
+                <td class="active">维修状态</td>
+                <td class="active">--</td>
+            </tr>
+
+
+
+            <tr class="" style="text-align:center">
+                <td class="active">D2615</td>
+                <td class="active">用水类</td>
+                <td class="active">热水器</td>
+                <td class="active">123456789</td>
+                <td class="active">2018年12月29日 17:19</td>
+                <td class="active" colspan="2">没热水洗澡 </td>
+
+                <td class="active">已确认验收</td>
+
+
+
+                <td class="active"></td>
+
+            </tr>
+
+            <tr class="" style="text-align:center">
+                <td class="active">D2615</td>
+                <td class="active">电器类</td>
+                <td class="active">卫生间电灯</td>
+                <td class="active">18320623572</td>
+                <td class="active">2018年12月28日 19:46</td>
+                <td class="active" colspan="2">快点来修</td>
+
+                <td class="active">已确认验收</td>
+
+
+
+                <td class="active"></td>
+
+            </tr>
+
+            <tr class="" style="text-align:center">
+                <td class="active">D2615</td>
+                <td class="active">家具类</td>
+                <td class="active">椅子</td>
+                <td class="active">18320623572</td>
+                <td class="active">2018年12月27日 21:14</td>
+                <td class="active" colspan="2">椅子坏了</td>
+
+                <td class="active">已确认验收</td>
+
+
+
+                <td class="active"></td>
+
+            </tr>
+
+            <tr class="" style="text-align:center">
+                <td class="active">D2615</td>
+                <td class="active">电器类</td>
+                <td class="active">卫生间电灯</td>
+                <td class="active">18320623572</td>
+                <td class="active">2018年12月27日 20:41</td>
+                <td class="active" colspan="2">快</td>
+
+                <td class="active">已确认验收</td>
+
+
+
+                <td class="active"></td>
+
+            </tr>
+
+            <tr class="" style="text-align:center">
+                <td class="active">D2615</td>
+                <td class="active">电器类</td>
+                <td class="active">卫生间电灯</td>
+                <td class="active">18320623572</td>
+                <td class="active">2018年12月27日 20:39</td>
+                <td class="active" colspan="2">快点啦</td>
+
+                <td class="active">已反馈</td>
+
+
+
+
+                <td class="active">2452</td>
+
+
+            </tr>
+
+            <tr class="" style="text-align:center">
+                <td class="active">D2615</td>
+                <td class="active">电器类</td>
+                <td class="active">风扇</td>
+                <td class="active">18320623572</td>
+                <td class="active">2018年12月27日 15:32</td>
+                <td class="active" colspan="2">没有好啊</td>
+
+                <td class="active">已确认验收</td>
+
+
+
+                <td class="active"></td>
+
+            </tr>
+
+            <tr class="" style="text-align:center">
+                <td class="active">D2615</td>
+                <td class="active">用水类</td>
+                <td class="active">卫生间水龙头</td>
+                <td class="active">18320623572</td>
+                <td class="active">2018年12月27日 15:09</td>
+                <td class="active" colspan="2">赶紧修啊</td>
+
+                <td class="active">已反馈</td>
+
+
+
+
+                <td class="active">没有好啊</td>
+
+
+            </tr>
+
+            <tr class="" style="text-align:center">
+                <td class="active">D2615</td>
+                <td class="active">门窗类</td>
+                <td class="active">外门</td>
+                <td class="active">18320623572</td>
+                <td class="active">2018年11月25日 09:47</td>
+                <td class="active" colspan="2">门被人打烂了</td>
+
+                <td class="active">已确认验收</td>
+
+
+
+                <td class="active"></td>
+
+            </tr>
+
+            <tr class="" style="text-align:center">
+                <td class="active">D2615</td>
+                <td class="active">电器类</td>
+                <td class="active">空调</td>
+                <td class="active">18320623572</td>
+                <td class="active">2018年11月19日 20:12</td>
+                <td class="active" colspan="2">热死了，赶紧给我修好来</td>
+
+                <td class="active">已确认验收</td>
+
+
+
+                <td class="active"></td>
+
+            </tr>
+
+            </tbody></table>
+    </div>
+<div>
+
+        <style>
+        .black_overlay{
+            display: none;
+            position: absolute;
+            top: 0%;
+            left: 0%;
+            width: 100%;
+            height: 100%;
+            background-color: black;
+            z-index:1001;
+            -moz-opacity: 0.8;
+            opacity:.80;
+            filter: alpha(opacity=88);
+        }
+        .white_content {
+            display: none;
+            position: absolute;
+            top: 25%;
+            left: 30%;
+            width: 35%;
+            height: 35%;
+            padding: 20px;
+            border: 0px solid orange;
+            background-color: #FFFAF0;
+            z-index:1002;
+            overflow: auto;
+        }
+    </style>
+
+        <!--<p>示例弹出层：<a href = "JavaScript:void(0)" onclick = "openDialog()">请点这里</a></p>-->
+        <div id="light" class="white_content">
+            <a style="float:right;margin-top:0px;color:orange" href = "javascript:void(0)" onclick = "closeDialog()">取消反馈</a>
+            <h1 style="color:orange;text-align:center">反馈原因</h1>
+            <form id="form_reply" action="" method="post">
+            <textarea rows="5" style="width:100%" required name="content" placeholder="反馈内容"></textarea>
+            <div style="text-align:center; margin-top:10px"><input onclick="alert('反馈成功')" type="submit" style="background:orange;border:0;width:100px;height:40px" class="btn btn-primary" value="立即反馈"></div>
+            </form>
+        </div>
+        </div>
+        <div id="fade" class="black_overlay"></div>
+    <script type="text/javascript">
+
+        function openDialog(id){
+            document.getElementById('light').style.display='block';
+            document.getElementById('fade').style.display='block';
+            document.getElementById('form_reply').action = "/student/repair_reply/" + id
+        }
+        function closeDialog(){
+            document.getElementById('light').style.display='none';
+            document.getElementById('fade').style.display='none';
+        }
+    </script>
+</div>
+
+
+</div>
+
+<script src="../static/js/student.js">active(1)</script>
+</body>
+</html>
