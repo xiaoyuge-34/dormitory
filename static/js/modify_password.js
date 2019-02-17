@@ -46,7 +46,13 @@ function check_repeat_password(){
         return 1
     }
     else{
-        error.innerHTML = "两次输入密码不一致！"
+        if(obj2 == ""){
+            error.innerHTML = "请再次输入密码！"
+        }
+        else{
+            error.innerHTML = "两次输入密码不一致！"
+        }
+
     }
 }
 
