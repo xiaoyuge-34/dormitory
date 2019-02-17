@@ -3,7 +3,7 @@ function check_password(){
     var obj = document.getElementById("password").value;
     var error = document.getElementById("password_error")
     if(obj == ""){
-        error.innerHTMl = "密码不能为空！"
+        error.innerHTML = "密码不能为空！"
     }
     else if(obj.length < 5){
         error.innerHTML = "密码不能低于5位数！"
@@ -22,7 +22,7 @@ function check_new_password(){
     var obj = document.getElementById("new_password").value;
     var error = document.getElementById("new_password_error")
     if(obj == ""){
-        error.innerHTMl = "密码不能为空！"
+        error.innerHTML = "密码不能为空！"
     }
     else if(obj.length < 5){
         error.innerHTML = "密码不能低于5位数！"
